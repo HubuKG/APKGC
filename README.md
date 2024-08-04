@@ -12,7 +12,8 @@ pip install -r requirements.txt
 
 ## Data
 
-The datasets consist of DB15K, and MKG-W, each containing a combination of structural, textual, and image information. Here, we directly present their embeddings. You can download all the datasets from [Google Drive](XXXX). Then put them in the 'embeddings' folder.
+The datasets consist of DB15K, and MKG-W, each containing a combination of structural, textual, and image information. Here, we directly present their embeddings. You can download all the datasets from [Google Drive]([XXXX](https://drive.google.com/drive/folders/1wGvlzt0i6RYcMniwooFcLKVEs2NBMcpB?usp=drive_link
+)). Then put them in the 'embeddings' folder.
 
 ## Run
 >> bash run.sh
