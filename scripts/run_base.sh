@@ -10,7 +10,7 @@ NU=epoch
 NOISE=1
 POOL=1
 
-CUDA_VISIBLE_DEVICES=$1 python run_mmkgc.py  -dataset=$DATA \
+CUDA_VISIBLE_DEVICES=$1 python run_KGC_train.py  -dataset=$DATA \
   -num_proj=$3 \
   -use_intermediate=$4 \
   -joint_way=$5 \
