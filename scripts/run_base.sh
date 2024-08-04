@@ -1,0 +1,31 @@
+DATA=$2
+EMB_DIM=128
+NUM_BATCH=1024
+MARGIN=12
+LR=1e-4
+LRG=1e-4
+NEG_NUM=32
+EPOCH=8000
+NU=epoch
+NOISE=1
+POOL=1
+
+CUDA_VISIBLE_DEVICES=$1 python run_mmkgc.py  -dataset=$DATA \
+  -num_proj=$3 \
+  -use_intermediate=$4 \
+  -joint_way=$5 \
+  -batch_size=$NUM_BATCH \
+  -margin=$MARGIN \
+  -epoch=$EPOCH \
+  -dim=$EMB_DIM \
+  -save=$DATA-$NUM_BATCH-$EMB_DIM-$NEG_NUM-$MARGIN-$LR-$2 \
+  -neg_num=$NEG_NUM \
+  -noise_update=$8 \
+  -noise_ratio=$6 \
+  -mask_ratio=$7 \
+  -use_pool=$POOL \
+  -add_noise=$NOISE \
+  -learning_rate=$LR \
+  -num_hidden_layers=$9 \
+  -num_attention_heads=${10} \
+  -exp_id=$EMB_DIM-$NEG_NUM-$3_layer_$4_inter_$5_${11}
