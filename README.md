@@ -16,7 +16,7 @@ The datasets consist of DB15K and MKG-W, each containing a combination of struct
 ). Then put them in the 'embeddings' folder.
 
 ## Run
->> bash run.sh
+bash run.sh
 
 ```bash
 EMB_DIM=128
