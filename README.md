@@ -1,4 +1,4 @@
-# APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty
+# APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty (AAAI2025, Oral paper)
 
 ## Overview
 
@@ -28,4 +28,14 @@ NEG_NUM=64
 EPOCH=8000
 NOISE=1
 POOL=1
+```
+## Citation
+
+```
+@inproceedings{APKGC,
+   author = {Jian, Yue and Luo, Xiangyu and Li, Zhifei and Zhang, Miao and Zhang, Yan and Xiao, Kui and Hou, Xiaoju},
+   title = {APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty},
+   booktitle = {Proceedings of the 39th AAAI Conference on Artificial Intelligence},
+   year = {2025}
+}
 ```
