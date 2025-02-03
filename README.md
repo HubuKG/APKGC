@@ -1,4 +1,4 @@
-# APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty (AAAI2025, Oral paper)
+# APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty (AAAI2025)
 
 ## Overview
 
