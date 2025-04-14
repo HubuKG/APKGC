@@ -35,7 +35,8 @@ POOL=1
 @inproceedings{APKGC,
    author = {Jian, Yue and Luo, Xiangyu and Li, Zhifei and Zhang, Miao and Zhang, Yan and Xiao, Kui and Hou, Xiaoju},
    title = {APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty},
-   booktitle = {Proceedings of the 39th AAAI Conference on Artificial Intelligence},
+   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+   pages = {15005-15013},
    year = {2025}
 }
 ```
